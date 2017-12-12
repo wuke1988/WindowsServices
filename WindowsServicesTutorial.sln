@@ -5,11 +5,11 @@ VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1BasicOperationService", "Demo1Service\1BasicOperationService.csproj", "{164A400E-A27C-4448-9D51-6E00E89C2DC0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".NetRemoting", ".NetRemoting", "{FA29721B-25B1-4863-83D3-40BD8920EA32}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.NetRemoting", "1.NetRemoting", "{FA29721B-25B1-4863-83D3-40BD8920EA32}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1BasicOperationClient", "Demo1Client\1BasicOperationClient.csproj", "{1C00BFFC-E8C8-4FC1-8B94-AC15C8638AB8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{3B76F4EA-6D19-4FC7-BE4D-AD7F690DE42A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.NetRemotingData", "1.NetRemotingData", "{3B76F4EA-6D19-4FC7-BE4D-AD7F690DE42A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0StoreDatabase", "0StoreDatabase\0StoreDatabase.csproj", "{4572A281-1882-44FA-AF6C-B30BF5049C27}"
 EndProject
