@@ -15,10 +15,20 @@
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <StackPanel Grid.ColumnSpan="2" Margin="20" Orientation="Horizontal" VerticalAlignment="Center">
-            <Label Margin="10,10,10,10" Padding="2">用户名:</Label>
-            <TextBox Name="txtUserName" Width="250"></TextBox>
-        </StackPanel>
+        <Grid Grid.ColumnSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center"
+                   Content="飞 鸽 传 书"  FontWeight="Bold" FontStyle="Oblique" FontSize="20"></Label>
+            <Label Grid.Row="1"   Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10,10,10,10" Padding="2">用户名:</Label>
+            <TextBox Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" Margin="10,10,60,10" Name="txtUserName" ></TextBox>
+        </Grid>
         <Button Name="btnsubmit" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="70" Content="登      录"
                 Click="btnsubmit_Click"></Button>
         <Button Name="btnexit" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="70" Content="退      出"></Button>
