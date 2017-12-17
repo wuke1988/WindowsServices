@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27004.2005
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1BasicOperationService", "Demo1Service\1BasicOperationService.csproj", "{164A400E-A27C-4448-9D51-6E00E89C2DC0}"
 EndProject
@@ -44,6 +44,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1BasicOperationServer", "1BasicOperationServer\1BasicOperationServer.csproj", "{5CA63350-F83D-4DDB-BB1F-5770BDE2922B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0SimpleWebChat", "0SimpleWebChat\0SimpleWebChat.csproj", "{0E082345-AA0B-474C-B191-31C5AE1B2E5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.AsyncSendMesageServer", "3.AsyncSendMesageServer\3.AsyncSendMesageServer.csproj", "{C812F404-F648-4306-B46E-E09B7F9433E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,10 @@ Global
 		{0E082345-AA0B-474C-B191-31C5AE1B2E5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E082345-AA0B-474C-B191-31C5AE1B2E5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E082345-AA0B-474C-B191-31C5AE1B2E5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C812F404-F648-4306-B46E-E09B7F9433E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C812F404-F648-4306-B46E-E09B7F9433E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C812F404-F648-4306-B46E-E09B7F9433E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C812F404-F648-4306-B46E-E09B7F9433E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -146,6 +152,7 @@ Global
 		{E6C48409-DE41-4E49-9CFC-106BBB0FB526} = {5B1B80E9-8AAF-4994-A88E-77C8375263C7}
 		{5CA63350-F83D-4DDB-BB1F-5770BDE2922B} = {5B1B80E9-8AAF-4994-A88E-77C8375263C7}
 		{0E082345-AA0B-474C-B191-31C5AE1B2E5D} = {5B1B80E9-8AAF-4994-A88E-77C8375263C7}
+		{C812F404-F648-4306-B46E-E09B7F9433E4} = {5B1B80E9-8AAF-4994-A88E-77C8375263C7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4816BA65-92BF-4DC7-BDCC-D485F8EBD7B5}
