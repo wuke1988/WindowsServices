@@ -51,9 +51,13 @@ namespace _1OrleansDemoTest_Client
         private static void AddCount(string taskName)
         {
             var test = Orleans.GrainClient.GrainFactory.GetGrain<ITest>(0);
-
-            Parallel.For(0,200,(i)=>test.AddCount(taskName));
-
+            Parallel.For(0,200,(i)=> test.AddCount(taskName));
         }
+        //private static void RemoteCall(string taskName)
+        //{
+        //    var test = Orleans.GrainClient.GrainFactory.GetGrain<ITest>(0);
+
+        //    test.AddCount(taskName);
+        //}
     }
 }
