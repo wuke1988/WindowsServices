@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace _2OrleansGrainStateDemo_Grains
 {
-    [StorageProvider(ProviderName ="OrleansStorage")]
+    [StorageProvider(ProviderName = "OrleansStorage")]
     public class PersonGrain : Grain<PersonGrainState>, IPersonGrain
     {
         public async Task SayHelloAsync()
@@ -22,9 +22,9 @@ namespace _2OrleansGrainStateDemo_Grains
 
             Console.WriteLine($"{primarykey} {saidHelloBeforeStr} said Hello!");
 
-            saidHelloBefore = true;
+            this.State.SaidHello = true;
 
-           await this.WriteStateAsync();
+            await this.WriteStateAsync();
         }
     }
 }

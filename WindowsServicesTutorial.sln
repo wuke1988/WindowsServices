@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1BasicOperationService", "Demo1Service\1BasicOperationService.csproj", "{164A400E-A27C-4448-9D51-6E00E89C2DC0}"
 EndProject
@@ -60,6 +60,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2OrleansGrainStateDemo-Silo", "Orleans\2OrleansGrainStateDemo-Silo\2OrleansGrainStateDemo-Silo.csproj", "{2A5D4EDE-7C1F-44CB-93A7-BD109CCC8171}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2OrleansGrainStateDemo-Grains", "Orleans\2OrleansGrainStateDemo-Grains\2OrleansGrainStateDemo-Grains.csproj", "{E06B24E9-9044-4912-B9BE-27D52037DC9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2OrleansGrainStateDemo-Client", "Orleans\2OrleansGrainStateDemo-Client\2OrleansGrainStateDemo-Client.csproj", "{8C3F893E-B9E9-427E-BDE6-C2D37D986CCD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -167,6 +169,10 @@ Global
 		{E06B24E9-9044-4912-B9BE-27D52037DC9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E06B24E9-9044-4912-B9BE-27D52037DC9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E06B24E9-9044-4912-B9BE-27D52037DC9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C3F893E-B9E9-427E-BDE6-C2D37D986CCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C3F893E-B9E9-427E-BDE6-C2D37D986CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C3F893E-B9E9-427E-BDE6-C2D37D986CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C3F893E-B9E9-427E-BDE6-C2D37D986CCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -197,6 +203,7 @@ Global
 		{7B0FC86F-BEC8-4F68-95AD-371FD5767541} = {B971B0DA-6EC9-45F9-9E77-4F2D4C0A45D9}
 		{2A5D4EDE-7C1F-44CB-93A7-BD109CCC8171} = {B971B0DA-6EC9-45F9-9E77-4F2D4C0A45D9}
 		{E06B24E9-9044-4912-B9BE-27D52037DC9E} = {B971B0DA-6EC9-45F9-9E77-4F2D4C0A45D9}
+		{8C3F893E-B9E9-427E-BDE6-C2D37D986CCD} = {B971B0DA-6EC9-45F9-9E77-4F2D4C0A45D9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4816BA65-92BF-4DC7-BDCC-D485F8EBD7B5}

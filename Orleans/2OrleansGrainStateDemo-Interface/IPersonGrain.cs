@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace _2OrleansGrainStateDemo_Interface
 {
-    public interface IPersonGrain: IGrainWithIntegerKey
+    public interface IPersonGrain: IGrainWithStringKey
     {
         Task SayHelloAsync();
     }
