@@ -1,0 +1,4 @@
+﻿1. Silo中设置的Networking,会存储在数据库中OrleansMembershipTable表中(三个子Silo的内部通讯地址，如果OrleansMembershipTable为空，会自动加入到该表中)。
+2. Silo启动时会到该表中寻找其它Silo的访问方式，内部访问，如果对应的Silo不存在，就会报错，但不影响使用。
+3. Client会默认到该表中读取到silo的地址，进行服务访问。
+4. 关闭掉其中的部分Silo服务，系统会暂时处于连续报错状态（各个Silo与关闭的Silo之间通讯失败），待到系统稳定后，其余的Silo会继续稳定提供服务以供Client访问。
