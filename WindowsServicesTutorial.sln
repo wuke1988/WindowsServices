@@ -79,6 +79,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4OrleansStreamDemo-Silo", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4OrleansStreamDemo-Client", "Orleans\4OrleansStreamDemo-Client\4OrleansStreamDemo-Client.csproj", "{D6A71C14-221D-4DC0-A638-58BA0207362B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4OrleansStreamDemo-ClientB", "Orleans\4OrleansStreamDemo-ClientB\4OrleansStreamDemo-ClientB.csproj", "{503D65C7-EDA1-4883-AF14-F66CF020EF93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -221,6 +223,10 @@ Global
 		{D6A71C14-221D-4DC0-A638-58BA0207362B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6A71C14-221D-4DC0-A638-58BA0207362B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6A71C14-221D-4DC0-A638-58BA0207362B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{503D65C7-EDA1-4883-AF14-F66CF020EF93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{503D65C7-EDA1-4883-AF14-F66CF020EF93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{503D65C7-EDA1-4883-AF14-F66CF020EF93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{503D65C7-EDA1-4883-AF14-F66CF020EF93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -260,6 +266,7 @@ Global
 		{AA6DCC34-96F0-4CF0-B5AF-89124C9223DB} = {B971B0DA-6EC9-45F9-9E77-4F2D4C0A45D9}
 		{475DB066-7A4C-4DE0-809A-A02F11E58F41} = {B971B0DA-6EC9-45F9-9E77-4F2D4C0A45D9}
 		{D6A71C14-221D-4DC0-A638-58BA0207362B} = {B971B0DA-6EC9-45F9-9E77-4F2D4C0A45D9}
+		{503D65C7-EDA1-4883-AF14-F66CF020EF93} = {B971B0DA-6EC9-45F9-9E77-4F2D4C0A45D9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4816BA65-92BF-4DC7-BDCC-D485F8EBD7B5}
