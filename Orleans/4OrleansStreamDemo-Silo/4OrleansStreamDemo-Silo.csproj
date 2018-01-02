@@ -169,5 +169,15 @@
     <Analyzer Include="..\..\packages\Microsoft.CodeAnalysis.Analyzers.1.1.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.Analyzers.dll" />
     <Analyzer Include="..\..\packages\Microsoft.CodeAnalysis.Analyzers.1.1.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.CSharp.Analyzers.dll" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\4OrleansStreamDemo-Grains\4OrleansStreamDemo-Grains.csproj">
+      <Project>{aa6dcc34-96f0-4cf0-b5af-89124c9223db}</Project>
+      <Name>4OrleansStreamDemo-Grains</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\4OrleansStreamDemo-Interface\4OrleansStreamDemo-Interface.csproj">
+      <Project>{3feeafc5-bf13-43bc-b45b-8ee5d57020e1}</Project>
+      <Name>4OrleansStreamDemo-Interface</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
