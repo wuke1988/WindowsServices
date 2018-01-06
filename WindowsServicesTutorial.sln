@@ -85,6 +85,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5OrleansWebAPIDemo-Business
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5OrleansWebApiDemo-WebAPI", "5OrleansWebApiDemo-WebAPI\5OrleansWebApiDemo-WebAPI.csproj", "{3C9A8D36-A5C0-43A8-90CF-DDCA17C2285D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6OrleansDashboradDemo-Silo", "Orleans\6OrleansDashboradDemo-Silo\6OrleansDashboradDemo-Silo.csproj", "{572B0100-0D72-4D1D-887E-32449A5E8445}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -239,6 +241,10 @@ Global
 		{3C9A8D36-A5C0-43A8-90CF-DDCA17C2285D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C9A8D36-A5C0-43A8-90CF-DDCA17C2285D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C9A8D36-A5C0-43A8-90CF-DDCA17C2285D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{572B0100-0D72-4D1D-887E-32449A5E8445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{572B0100-0D72-4D1D-887E-32449A5E8445}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{572B0100-0D72-4D1D-887E-32449A5E8445}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{572B0100-0D72-4D1D-887E-32449A5E8445}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -281,6 +287,7 @@ Global
 		{503D65C7-EDA1-4883-AF14-F66CF020EF93} = {B971B0DA-6EC9-45F9-9E77-4F2D4C0A45D9}
 		{4E42CBF0-EE3E-46BA-AAD9-6B64BB64C3B8} = {B971B0DA-6EC9-45F9-9E77-4F2D4C0A45D9}
 		{3C9A8D36-A5C0-43A8-90CF-DDCA17C2285D} = {B971B0DA-6EC9-45F9-9E77-4F2D4C0A45D9}
+		{572B0100-0D72-4D1D-887E-32449A5E8445} = {B971B0DA-6EC9-45F9-9E77-4F2D4C0A45D9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4816BA65-92BF-4DC7-BDCC-D485F8EBD7B5}
