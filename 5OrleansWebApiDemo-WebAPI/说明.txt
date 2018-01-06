@@ -1,0 +1,1 @@
+﻿使用2OrleansGrainStateDemo的Interface,Grain,Silo(将原来的数据库数据持久化改为了内存数据持久化，方便测试)
